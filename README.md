@@ -35,4 +35,5 @@ docker exec -it some-svn-server svnadmin create new-repo
  [2]: https://raw.githubusercontent.com/garethflowers/docker-svn-server/master/LICENSE
 
 docker run --name svn-server -d -p 3690:3690 -v /data/svndata:/var/opt/svn  garethflowers/svn-server
+
 docker exec 25784c542398 ls -lh /var/opt/svn/FCS
